@@ -37,30 +37,28 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="WebRole1\WebRole1.csproj">
-      <Name>WebRole1</Name>
+    <ProjectReference Include="WebRole1\WebRole.csproj">
+      <Name>WebRole</Name>
       <Project>{b45784e8-cd2e-419c-ada2-db8c64c9cb06}</Project>
       <Private>True</Private>
       <RoleType>Web</RoleType>
-      <RoleName>WebRole1</RoleName>
-      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+      <RoleName>WebRole</RoleName>
     </ProjectReference>
-    <ProjectReference Include="WorkerRole1\WorkerRole1.csproj">
-      <Name>WorkerRole1</Name>
+    <ProjectReference Include="WorkerRole1\WorkerRole.csproj">
+      <Name>WorkerRole</Name>
       <Project>{e6648590-ec72-4b57-a558-03b8c0574ae5}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
-      <RoleName>WorkerRole1</RoleName>
-      <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
+      <RoleName>WorkerRole</RoleName>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="WebRole1Content\" />
-    <Folder Include="WorkerRole1Content\" />
+    <Folder Include="WebRoleContent" />
+    <Folder Include="WorkerRoleContent" />
   </ItemGroup>
   <ItemGroup>
-    <DiagnosticsConfiguration Include="WebRole1Content\diagnostics.wadcfgx" />
-    <DiagnosticsConfiguration Include="WorkerRole1Content\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="WebRoleContent\diagnostics.wadcfgx" />
+    <DiagnosticsConfiguration Include="WorkerRoleContent\diagnostics.wadcfgx" />
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>

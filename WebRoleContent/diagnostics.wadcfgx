@@ -33,7 +33,7 @@
     <StorageAccount></StorageAccount>
   </PublicConfig>
   <PrivateConfig>
-    <StorageAccount name="" key="" endpoint="" />
+    <StorageAccount name="guestbookpg" key="U+kYW89et8fqL9nAja5Z4uU0ZImh364kqpmyVHdy2OlsenOMKPTgGNFJygpqGSNtKaWVoQ95Tz/URkpbcoIIIQ==" endpoint="" />
   </PrivateConfig>
   <IsEnabled>true</IsEnabled>
 </DiagnosticsConfiguration>
