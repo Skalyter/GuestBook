@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "GuestBook", "GuestBook.ccproj", "{C56AAA7E-B2DA-4810-95A0-C7E18F09D878}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole1", "WebRole1\WebRole1.csproj", "{B45784E8-CD2E-419C-ADA2-DB8C64C9CB06}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole", "WebRole1\WebRole.csproj", "{B45784E8-CD2E-419C-ADA2-DB8C64C9CB06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole1", "WorkerRole1\WorkerRole1.csproj", "{E6648590-EC72-4B57-A558-03B8C0574AE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole", "WorkerRole1\WorkerRole.csproj", "{E6648590-EC72-4B57-A558-03B8C0574AE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuestBook_Data", "..\GuestBook_Data\GuestBook_Data.csproj", "{4DBC2853-8F1B-4492-A188-504345D72B07}"
 EndProject
