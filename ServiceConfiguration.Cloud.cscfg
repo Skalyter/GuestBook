@@ -4,6 +4,7 @@
     <Instances count="1" />
     <ConfigurationSettings>
       <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="UseDevelopmentStorage=true" />
+      <Setting name="AzureStorageConnectionString-1" value="DefaultEndpointsProtocol=https;AccountName=bia98;AccountKey=HWgmgwU+ozCUoaylgOK5vjhaIAmu7/GVW2ImFql+TtEOpn5w4KvwKF3V/usL+TyBk+1o1uHwTK00x6hxlnI6/g==;EndpointSuffix=core.windows.net" />
     </ConfigurationSettings>
   </Role>
   <Role name="WorkerRole">
